@@ -2,9 +2,21 @@
 
 
 
+#### Lottie动画实现底部导航栏_效果演示
+
+![演示Normal](image/演示Normal.gif)
+
+![演示Fg](image/演示Fg.gif)
+
+![演示Vp+Fg](image/演示Vp+Fg.gif)
+
+**使用案例**
+
 [**使用Lottie动画实现底部导航栏**](https://blog.csdn.net/ShenQiXiaYang/article/details/110930379)
 
 
+
+**开始使用**
 
 [![](https://jitpack.io/v/WarmYunyang/BottomTabWithLottieNavigation.svg)](https://jitpack.io/#WarmYunyang/BottomTabWithLottieNavigation)
 
