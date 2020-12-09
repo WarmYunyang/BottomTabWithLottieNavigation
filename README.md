@@ -4,11 +4,11 @@
 
 #### Lottie动画实现底部导航栏_效果演示
 
-![演示Normal](image/演示Normal.gif)
+![演示Normal.gif](http://ww1.sinaimg.cn/large/e336ac2fly1glhqt51d0ig20bg0ooqa8.gif)
 
-![演示Fg](image/演示Fg.gif)
+![演示Fg.gif](http://ww1.sinaimg.cn/large/e336ac2fly1glhqtydovrg20bg0oojyw.gif)
 
-![演示Vp+Fg](image/演示Vp+Fg.gif)
+![演示Vp+Fg.gif](http://ww1.sinaimg.cn/large/e336ac2fly1glhqu6oi0yg20bg0oogsw.gif)
 
 **使用案例**
 
