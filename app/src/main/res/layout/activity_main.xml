@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="包裹显示"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <com.yunyang.bottombarwithlottie.view.BottomTabWithLottieNavigation
+        android:id="@+id/main_btwln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        app:btwln_textSelectColor="@android:color/holo_red_dark"
+        app:btwln_textUnselectColor="@android:color/white" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="周围带padding"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <com.yunyang.bottombarwithlottie.view.BottomTabWithLottieNavigation
+        android:id="@+id/main_btwln_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray"
+        app:btwln_iconHeight="30dp"
+        app:btwln_iconWidth="30dp"
+        app:btwln_textBold="BOTH"
+        app:btwln_textSelectColor="@android:color/holo_red_dark"
+        app:btwln_textSize="14sp"
+        app:btwln_textUnselectColor="@android:color/white" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="包裹显示_无文本"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <com.yunyang.bottombarwithlottie.view.BottomTabWithLottieNavigation
+        android:id="@+id/main_btwln_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        app:btwln_textSelectColor="@android:color/holo_red_dark"
+        app:btwln_textUnselectColor="@android:color/white"
+        app:btwln_textVisible="false" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="周围带padding_无文本"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <com.yunyang.bottombarwithlottie.view.BottomTabWithLottieNavigation
+        android:id="@+id/main_btwln_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray"
+        app:btwln_iconHeight="30dp"
+        app:btwln_iconWidth="30dp"
+        app:btwln_textBold="BOTH"
+        app:btwln_textSelectColor="@android:color/holo_red_dark"
+        app:btwln_textSize="14sp"
+        app:btwln_textUnselectColor="@android:color/white"
+        app:btwln_textVisible="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onFragmentSelect"
+        android:text="结合碎片使用" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onVpFgSelect"
+        android:text="结合ViewPager+碎片使用"
+        android:textAllCaps="false" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

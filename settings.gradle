@@ -1,0 +1,3 @@
+include ':BottomBarWithLottie'
+include ':app'
+rootProject.name = "BottomBar"

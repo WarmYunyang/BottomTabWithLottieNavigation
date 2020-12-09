@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BottomTabWithLottieNavigation">
+
+        <!-- title -->
+        <!-- 设置字体大小 -->
+        <attr name="btwln_textSize" format="dimension" />
+        <!-- 设置字体选中颜色 -->
+        <attr name="btwln_textSelectColor" format="color" />
+        <!-- 设置字体未选中颜色 -->
+        <attr name="btwln_textUnselectColor" format="color" />
+        <!-- 设置字体加粗 -->
+        <attr name="btwln_textBold" format="enum">
+            <enum name="NONE" value="0" />
+            <enum name="SELECT" value="1" />
+            <enum name="BOTH" value="2" />
+        </attr>
+        <!-- 设置字体全大写 -->
+        <attr name="btwln_textAllCaps" format="boolean" />
+        <!-- 设置Text是否可见 -->
+        <attr name="btwln_textVisible" format="boolean" />
+
+        <!-- icon -->
+        <!-- 设置icon宽度 -->
+        <attr name="btwln_iconWidth" format="dimension" />
+        <!-- 设置icon高度 -->
+        <attr name="btwln_iconHeight" format="dimension" />
+        <!-- 设置icon与文字间距 -->
+        <attr name="btwln_iconMargin" format="dimension" />
+
+    </declare-styleable>
+
+</resources>
