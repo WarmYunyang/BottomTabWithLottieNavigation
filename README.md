@@ -1,10 +1,20 @@
 # BottomTabWithLottieNavigation
 
+
+
+**使用Lottie动画实现底部导航栏**
+
+
+
 [![](https://jitpack.io/v/WarmYunyang/BottomTabWithLottieNavigation.svg)](https://jitpack.io/#WarmYunyang/BottomTabWithLottieNavigation)
 
+## Gradle
 
-
-使用Lottie动画实现底部导航栏
+```
+// 引入库_必须引入lottie-android
+implementation 'com.airbnb.android:lottie:3.5.0'
+implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:v1.0.1'
+```
 
 
 
@@ -16,20 +26,8 @@
 
 
 
-## Gradle
-
-```
-// 引入库_必须引入lottie-android
-implementation 'com.airbnb.android:lottie:3.5.0'
-implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:1.0.0'
-```
-
-
-
-## Dependence
-
-- [lottie-android](https://github.com/airbnb/lottie-android)
-
 ## Thanks
+
+* [lottie-android](https://github.com/airbnb/lottie-android)
 
 - [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
