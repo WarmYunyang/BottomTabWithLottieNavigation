@@ -41,6 +41,22 @@ implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:v1.0.1'
 
 
 
+## Attributes
+
+|          name           |  format   |    description     |
+| :---------------------: | :-------: | :----------------: |
+|     btwln_textSize      | dimension |    设置字体大小    |
+|  btwln_textSelectColor  |   color   |  设置字体选中颜色  |
+| btwln_textUnselectColor |   color   | 设置字体未选中颜色 |
+|     btwln_textBold      |   enum    |    设置字体加粗    |
+|    btwln_textAllCaps    |  boolean  |   设置字体全大写   |
+|    btwln_textVisible    |  boolean  |  设置Text是否可见  |
+|     btwln_iconWidth     | dimension |    设置icon宽度    |
+|    btwln_iconHeight     | dimension |    设置icon高度    |
+|    btwln_iconMargin     | dimension | 设置icon与文字间距 |
+
+
+
 > Change Log
 >
 > v1.0.1(2020/12/09)
