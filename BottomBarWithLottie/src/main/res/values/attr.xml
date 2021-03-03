@@ -29,6 +29,9 @@
         <!-- 设置icon与文字间距 -->
         <attr name="btwln_iconMargin" format="dimension" />
 
+        <!-- 设置动画速率 -->
+        <attr name="btwln_animSpeed" format="float" />
+
     </declare-styleable>
 
 </resources>

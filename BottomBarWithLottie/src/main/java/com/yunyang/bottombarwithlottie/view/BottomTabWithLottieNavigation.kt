@@ -33,7 +33,7 @@ class BottomTabWithLottieNavigation @JvmOverloads constructor(
     private var mCurrentTab = 0
     private var mTabCount = 0
 
-    /** title  */
+    /** title */
     private var mTextSize = 0f
     private var mTextSelectColor = 0
     private var mTextUnSelectColor = 0
@@ -41,10 +41,14 @@ class BottomTabWithLottieNavigation @JvmOverloads constructor(
     private var mTextAllCaps = false
     private var mTextVisible = true
 
-    /** icon  */
+    /** icon */
     private var mIconWidth = 0f
     private var mIconHeight = 0f
     private var mIconMargin = 0f
+
+    /** anim */
+    // 设置播放速度。如果速度<0，则动画将向后播放
+    private var mAnimSpeed = 1.0f
 
     private var mTabsContainer: LinearLayoutCompat = LinearLayoutCompat(context).also {
         it.orientation = LinearLayoutCompat.HORIZONTAL
@@ -100,6 +104,10 @@ class BottomTabWithLottieNavigation @JvmOverloads constructor(
                     R.styleable.BottomTabWithLottieNavigation_btwln_iconMargin,
                     2.5f.dp2Px()
                 )
+                mAnimSpeed = typedArray.getFloat(
+                    R.styleable.BottomTabWithLottieNavigation_btwln_animSpeed,
+                    1.0f
+                )
             } catch (e: Exception) {
             } finally {
                 typedArray.recycle()
@@ -134,6 +142,7 @@ class BottomTabWithLottieNavigation @JvmOverloads constructor(
         val ivTabIcon: LottieAnimationView = tabView.findViewById(R.id.img_tab_icon)
         with(ivTabIcon) {
             setAnimation(mTabItems[i].getTabIcon())
+            speed = mAnimSpeed
             cancelAnimation()
             progress = 0f
         }

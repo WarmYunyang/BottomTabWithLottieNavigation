@@ -35,6 +35,6 @@ dependencies {
 
     // lottie-android
     implementation 'com.airbnb.android:lottie:3.5.0'
-    implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:v1.0.1'
-//    implementation project(path: ':BottomBarWithLottie')
+//    implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:v1.0.1'
+    implementation project(path: ':BottomBarWithLottie')
 }
