@@ -36,7 +36,7 @@ allprojects {
 ```
 // 引入库_必须引入lottie-android
 implementation 'com.airbnb.android:lottie:3.5.0'
-implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:v1.0.1'
+implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:1.0.2'
 ```
 
 
@@ -54,10 +54,13 @@ implementation 'com.github.WarmYunyang:BottomTabWithLottieNavigation:v1.0.1'
 |     btwln_iconWidth     | dimension |    设置icon宽度    |
 |    btwln_iconHeight     | dimension |    设置icon高度    |
 |    btwln_iconMargin     | dimension | 设置icon与文字间距 |
+|     btwln_animSpeed     |   float   |    设置动画速度    |
 
 
 
 > Change Log
+>
+> 1.0.2(2021/03/03)
 >
 > v1.0.1(2020/12/09)
 >
